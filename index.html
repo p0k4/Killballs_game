@@ -1,28 +1,22 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Jogo do balão</title>
+    <style type="text/css">
+      .balao {
+        margin-top: 50px;
+        width: 50px;
+        height: 60px;
+        background-color: rgb(233, 181, 13);
+        border-radius: 30px;
+        position: absolute;
+      }
+    </style>
 
-	<head>
-		<title>Jogo do balão</title>
-        <style type="text/css">
-            .balao{
-                margin-top: 50px;
-                width: 50px;
-                height: 60px;
-                background-color: rgb(233, 181, 13);
-                border-radius: 30px;
-                position: absolute;
-            }
-        </style>
+    <script type="text/javascript" src="balao.js"></script>
+  </head>
 
-        <script type="text/javascript" src="balao.js"></script>
-
-	</head>
-
-	<body onload="carregarjogo()">
-
-        <h3 style="color: #ff0000; position: fixed;"  id="total"></h3>
-        
-        
-    </body>
-
+  <body onload="carregarjogo()">
+    <h3 style="color: #ff0000; position: fixed" id="total"></h3>
+  </body>
 </html>
